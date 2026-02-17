@@ -1,0 +1,2 @@
+# OrderOnTheGo-Your-On-Demand-Food-Ordering-Solution
+OrderOnTheGo is a full-stack on-demand food ordering platform that connects users with local restaurants. It features secure authentication, menu browsing, cart management, real-time order tracking, payment integration, and admin dashboards. Built with scalable architecture, it’s ideal for learning, prototyping, and production-ready deployment.
