@@ -1,0 +1,25 @@
+return (
+  <div style={{ padding: '20px' }}>
+    <h2>🍽️ Full Menu</h2>
+    {Object.entries(grouped).map(([category, items]) => (
+      <div key={category} style={{ marginBottom: '20px' }}>
+        <h3 style={{ color: '#ff6600' }}>{category}</h3>
+        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '15px' }}>
+          {items.map(item => (
+            <div key={item.id} style={{
+              border: '1px solid #ddd',
+              borderRadius: '10px',
+              padding: '10px',
+              width: '200px',
+              boxShadow: '0 0 10px rgba(0,0,0,0.1)'
+            }}>
+              <h4>{item.name}</h4>
+              <p>₹{item.price}</p>
+              <button>Add to Cart</button>
+            </div>
+          ))}
+        </div>
+      </div>
+    ))}
+  </div>
+);
